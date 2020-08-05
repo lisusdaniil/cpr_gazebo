@@ -13,6 +13,7 @@
     <exec_depend>husky_gazebo</exec_depend>
     <exec_depend>jackal_gazebo</exec_depend>
     <exec_depend>ridgeback_gazebo</exec_depend>
+    <exec_depend>boxer_gazebo</exec_depend>
 
     <export>
     </export>
