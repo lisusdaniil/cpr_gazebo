@@ -32,8 +32,8 @@
     <!-- Place the origin somewhere near Stonewall, Manitoba, Canada -->
     <spherical_coordinates>
       <surface_model>EARTH_WGS84</surface_model>
-      <latitude_deg>50.119798</latitude_deg>
-      <longitude_deg>-97.326591</longitude_deg>
+      <latitude_deg>50.109461</latitude_deg>
+      <longitude_deg>-97.318978</longitude_deg>
       <elevation>250</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
