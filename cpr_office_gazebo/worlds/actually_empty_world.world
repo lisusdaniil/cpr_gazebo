@@ -13,11 +13,19 @@
       </attenuation>
       <direction>-0.5 0.5 -1.0</direction>
     </light>
-    <physics type='ode'>
-      <max_step_size>0.001</max_step_size>
+    <!-- Physics set up to handle 200Hz IMU at the cost of real time factor -->
+    <physics type="ode">
+      <ode>
+        <solver>
+          <type>quick</type>
+          <min_step_size>0.0002</min_step_size>
+          <iters>200</iters>
+          <sor>1.9</sor>
+        </solver>
+      </ode>
+      <max_step_size>0.0002</max_step_size>
+      <real_time_update_rate>5000</real_time_update_rate>
       <real_time_factor>1</real_time_factor>
-      <real_time_update_rate>1000</real_time_update_rate>
-      <gravity>0 0 -9.8</gravity>
     </physics>
     <scene>
       <ambient>1 1 1 1</ambient>
